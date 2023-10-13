@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataTable com Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <table id="primeiro" class="table table-striped table-bordered" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Cargo</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João Silva</td>
+                    <td>25</td>
+                    <td>Desenvolvedor</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>32</td>
+                    <td>Designer</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>João Silva</td>
+                    <td>25</td>
+                    <td>Desenvolvedor</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>32</td>
+                    <td>Designer</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>João Silva</td>
+                    <td>25</td>
+                    <td>Desenvolvedor</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>32</td>
+                    <td>Designer</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>João Silva</td>
+                    <td>25</td>
+                    <td>Desenvolvedor</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>32</td>
+                    <td>Designer</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>João Silva</td>
+                    <td>25</td>
+                    <td>Desenvolvedor</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>32</td>
+                    <td>Designer</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>João Silva</td>
+                    <td>25</td>
+                    <td>Desenvolvedor</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>32</td>
+                    <td>Designer</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>João Silva</td>
+                    <td>25</td>
+                    <td>Desenvolvedor</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>32</td>
+                    <td>Designer</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+            </tbody>            
+        </table>       
+
+        <div class="table-responsive">
+            <table id="segundo" class="table table-bordered" style="width:100%"></table>
+        </div>
+    </div>
+
+    <!-- jQuery, Bootstrap and DataTables scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+    <script src="js.js"></script>
+    <script>
+        $(document).ready(function() {                               
+            carregarNomes();
+        });
+    </script>
+</body>
+
+</html>
